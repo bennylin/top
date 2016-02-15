@@ -1,0 +1,113 @@
+#------------------
+# Wikipedia Top 100
+#    If you want to translate the charts on top.hatnote.com, start with a copy
+#    of this file and leave us a note at:
+#    https://github.com/hatnote/top/issues
+#------------------------------------------------------------------------------
+
+#-----------
+# Page title
+#------------------------------------------------------------------------------
+
+title: Top 100
+full_title: >-
+  Top 100 artikel di Wikipedia bahasa Indonesia tanggal {formatted_date}
+
+index_title: >-
+  Top 100 Artikel Wikipedia bahasa Indonesia
+
+rss_title: >-
+   100 artikel paling sering dikunjungi di Wikipedia bahasa Indonesia
+
+wikipedia: Wikipedia
+language_project: Wikipedia bahasa Indonesia
+tagline: >-
+    Artikel-artikel Wikipedia bahasa Indonesia paling populer, per hari. <a
+    href="#about" class="learn">Pelajari lebih lanjut</a>...
+
+alt_tagline: >-
+    Artikel Wikipedia bahasa Indonesia paling populer, per hari.
+
+#------
+# Links
+#------------------------------------------------------------------------------
+
+about_link: Tentang
+more_langs_link: Bahasa lain
+feed_link: Umpan
+blog_link: Blog
+top: Kembali ke atas 
+
+#---------
+# Articles
+#
+#   Each article has statistics at the bottom like this:
+#   934.8K views (↑300.5K from yesterday)
+#------------------------------------------------------------------------------
+
+views: tampilan
+from_yesterday: dari kemarin
+streak: hari berturut-turut
+
+#------------
+# About section
+#------------------------------------------------------------------------------
+
+about_header: Tentang
+about_section: >-
+     <p>Pelajari lebih lanjut di <a href="#">Hatnote Blog</a>.</p> 
+     <p>Daftar harian artikel Wikipedia paling populer, dibuat oleh
+     href="https://twitter.com/sklaporte">Stephen LaPorte</a> dan <a
+     href="https://twitter.com/mhashemi">Mahmoud Hashemi</a>. 
+     Juga tersedia dalam <a
+     href="http://top.hatnote.com/about.html">berbagai bahasa</a>. 
+     Jika menurut Anda ini menarik, Anda mungkin akan menikmati <a
+     href="http://weekly.hatnote.com">The Weeklypedia</a>, terbitan 
+     mingguan tentang artikel Wikipedia yang paling sering disunting.</p>
+
+     <p>Halaman ini dimampukan oleh bantuan <a
+     href="https://wikimedia.org/api/rest_v1/?doc#!/Pageviews_data/get_metrics_\
+     pageviews_top_project_access_year_month_day">API tampilan halaman baru 
+     Wikipedia</a>, dengan gambar dan ringkasan yang menarik dari <a
+     href="https://www.mediawiki.org/wiki/API:Query">API MediaWiki</a>. 
+     Anda dapat memperoleh kode dan dokumentasinya di <a
+     href="https://github.com/hatnote/top">github</a>.</p>
+
+     <p>Ingin melihat daftar artikel paling populer dalam Wikipedia bahasa lain?
+     Begitu juga kami! Kirimkan <a href="https://github.com/hatnote/top/issues">
+     permintaan</a> dan kabari kami jika Anda dapat menerjemahkan templatnya.</p>
+
+     <p><a href="https://twitter.com/hatnotable">@hatnotable</a></p>
+
+#------- 
+# Tweets 
+#
+#   We can provide three possible tweets. They shouldn't be longer than 117 
+#   characters (including the article title, so there is enough space to 
+#   include a link.
+#------------------------------------------------------------------------------
+
+long_tweet: >- 
+    {streak} hari berturut-turut, {title} jadi artikel terpopuler
+    ke-{rank} di @idwiki dengan {views} tampilan
+
+medium_tweet: "{title} ditampilkan {views} kali di @idwiki"
+short_tweet: "{title} ranking #{rank} di @idwiki"
+
+#-------------
+# Archive page
+#------------------------------------------------------------------------------
+
+all_traffic_data: Semua data lalu lintas
+
+#----
+# RSS
+#------------------------------------------------------------------------------
+
+rss_intro: Angka dari Wikipedia bahasa Indonesia sudah masuk!
+rss_description: >-
+    <a href="{permalink|s}">{title}</a> menjadi artikel #1, dengan {views_short} 
+    tampilan{?streak_min}, selama {streak_len} hari berturut-turut di daftar 
+    ({view_trend|s}{view_delta} tampilan sejak kemarin){/streak_min}.
+
+rss_read_more: Baca lebih lanjut...
